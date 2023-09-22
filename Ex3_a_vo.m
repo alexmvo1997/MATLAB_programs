@@ -5,7 +5,7 @@ it will then ask the user if they would like to input another number.
 if the user declined, then the input will be used to calculate the area of a circle.
 if the user entered another number, then the area of a square/rectangle will be used.
 if the user entered 2 inputs, the shape will be assumed to be a square or rectangle based on whether or not the inputs equalled each other.
-} 
+%} 
 
 x = str2double(input('Please enter a number: \n', 's')); % asks user to input a number
 
