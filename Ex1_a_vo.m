@@ -1,3 +1,9 @@
+%{
+this program was designed to take the number of letters in one's last name.
+then it would be paired with a random number between 1-3.
+finally using the quadratic formula, the roots will be calculated based on those two numbers.
+%}
+
 name = 'vo'; % variable 'name' created equal to last name
 n = size(name,2); % variable "n" created equal to length of variable 'name'
 z = (randi([1 3],3,1)) * n % generates 3x1 vector "z" and prints on screen
